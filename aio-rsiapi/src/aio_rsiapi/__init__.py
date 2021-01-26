@@ -36,5 +36,5 @@ def to_json(data) -> dict:
 
 
 def cents_to_dollar_format(cents) -> str:
-    locale.setlocale(category=LC_MONETARY, locale='en-US')
+    locale.setlocale(category=LC_MONETARY, locale='en_US')
     return currency(cents * 0.01, True, True, False)

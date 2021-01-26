@@ -9,8 +9,6 @@ class EndPointTest(unittest.IsolatedAsyncioTestCase):
     A library test against the real remote API endpoints.
     No further mocking for simplicity.
     """
-    loop = None
-
     def setUp(self):
         pass
 
